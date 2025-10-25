@@ -1,0 +1,46 @@
+
+body {
+  background-color: #add8e6 ; /* light blue background */
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Change the colour and font of headings */
+h1, h2, h3 {
+  color: darkblue;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Add some spacing for readability */
+p, ul, ol {
+  margin-bottom: 15px;
+}
+
+/* Style your button */
+button {
+  background-color: #4CAF50; /* green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1824a1; /* darker green when hovered */
+}
+
+/* Style your link */
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hover effect for links */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
